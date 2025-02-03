@@ -1,2 +1,37 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Name: Sayge Holiday, University: SIUC, Date Developed: [Insert Date], Date Tested: [Insert Date] -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to our Bicycle Shop">
+    <meta name="keywords" content="Bicycles, Bike Shop, Cycling, Repairs">
+    <title>Bicycle Shop</title>
+</head>
+<body>
+    <!-- Business Name -->
+    <h1>Sayge's Bicycle Shop</h1>
+
+    <!-- Business Address -->
+    <p>123 Main Street, Carbondale, IL</p>
+
+    <!-- Contact Name -->
+    <p>Contact: Sayge Holiday</p>
+
+    <!-- Inline elements (bold & italic) -->
+    <p>We offer the <strong>best bicycles</strong> and <em>repair services</em> in town!</p>
+
+    <!-- Image -->
+    <img src="images/bike.jpg" alt="Bicycle Image" width="300">
+
+    <!-- Additional HTML Elements -->
+    <ul>
+        <li>Road Bikes</li>
+        <li>Mountain Bikes</li>
+        <li>Accessories</li>
+    </ul>
+
+</body>
+</html>
+
 
