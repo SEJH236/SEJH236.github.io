@@ -1,0 +1,25 @@
+/* print.css */
+@media print {
+    body {
+      background: #fff !important;
+      color: #000 !important;
+      font-family: 'Merriweather', serif;
+    }
+    header, footer, nav, .cta-button, .hero-image {
+      display: none !important;
+    }
+    main {
+      padding: 0;
+      margin: 0;
+    }
+    .travel-essentials table {
+      border: 1px solid #000;
+    }
+    table th, table td {
+      border: 1px solid #000;
+    }
+    iframe {
+      display: none;
+    }
+  }
+  
