@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Explore iconic travel destinations like the Grand Canyon and New York City with our guide. Ideal for adventure seekers and travelers willing to explore further." />
+  <meta name="keywords" content="Willing to Travel, Grand Canyon, New York City, travel destinations, adventure travel, explore USA" />
+  <meta name="date-produced" content="2025-05-09" />
+  <meta name="date-tested" content="2025-05-09" />
+  <meta name="author" content="Sayge Holiday" />
+  <meta name="robots" content="index, follow" />
+  <title>Willing to Travel Destinations</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="slicknav.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="jquery.slicknav.min.js"></script>
+  <script>
+    $(function(){
+      $('#menu').slicknav();
+    });
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Willing to Travel</h1>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="northern.html">Northern Illinois</a></li>
+        <li><a href="southern.html">Southern Illinois</a></li>
+        <li><a href="nearby.html">Nearby States</a></li>
+        <li><a href="further.html">Willing to Travel</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Grand Canyon – Arizona</h2>
+      <p>Known for its breathtaking vistas and outdoor adventures, the Grand Canyon is worth the distance for nature lovers and thrill seekers.</p>
+      <p><strong>Address:</strong> Grand Canyon Village, AZ 86023</p>
+      <p><strong>Contact:</strong> (928) 638-7888</p>
+    </section>
+
+    <section>
+      <h2>New York City – New York</h2>
+      <p>The city that never sleeps is full of famous landmarks, cultural experiences, and endless exploration opportunities.</p>
+      <p><strong>Address:</strong> Times Square, NYC, NY 10036</p>
+      <p><strong>Contact:</strong> (212) 484-1222</p>
+    </section>
+
+    <section>
+      <h3>Visitor Comments</h3>
+      <form action="thankyou.html" method="POST">
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" name="name" required /><br/><br/>
+        <label for="comment">Comment:</label><br/>
+        <textarea id="comment" name="comment" rows="4" cols="40" required></textarea><br/><br/>
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Back
