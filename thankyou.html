@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Thank you for submitting your feedback!">
+  <meta name="keywords" content="feedback, thank you, confirmation, tourist comments">
+  <meta name="date-produced" content="2025-05-09">
+  <meta name="date-tested" content="2025-05-09">
+  <meta name="author" content="Sayge Holiday">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Thank You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Thank you for your feedback!</h1>
+    <ul>
+      <li>First Name: <strong id="out-first"></strong></li>
+      <li>Last Name: <strong id="out-last"></strong></li>
+      <li>Email: <strong id="out-email"></strong></li>
+      <li>Comments: <strong id="out-comments"></strong></li>
+    </ul>
+    <p><a href="index.html">Back to Home</a></p>
+  </main>
+
+  <script>
+    const p = new URLSearchParams(window.location.search);
+    document.getElementById('out-first').textContent    = p.get('first')    || '';
+    document.getElementById('out-last').textContent     = p.get('last')     || '';
+    document.getElementById('out-email').textContent    = p.get('email')    || '';
+    document.getElementById('out-comments').textContent = p.get('comments') || '';
+  </script>
+</body>
+</html>
