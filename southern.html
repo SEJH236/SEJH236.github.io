@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Explore Southern Illinois tourist spots like Garden of the Gods, Rend Lake, and Cahokia Mounds.">
+  <meta name="keywords" content="Southern Illinois, Garden of the Gods, Rend Lake, Cahokia Mounds, tourism">
+  <meta name="date-produced" content="2025-05-09">
+  <meta name="date-tested" content="2025-05-09">
+  <meta name="author" content="Sayge Holiday">
+  <meta name="robots" content="index, follow">
+  <title>Southern Illinois Destinations</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="slicknav.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="jquery.slicknav.min.js"></script>
+  <script>
+    $(function(){
+      $('#menu').slicknav();
+    });
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Southern Illinois Tourist Spots</h1>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="northern.html">Northern Illinois</a></li>
+        <li><a href="southern.html">Southern Illinois</a></li>
+        <li><a href="nearby.html">Nearby States</a></li>
+        <li><a href="further.html">Willing to Travel</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Garden of the Gods – Shawnee National Forest</h2>
+      <p>This natural wonder offers stunning rock formations, hiking trails, and panoramic views, making it one of the most photographed locations in Illinois.</p>
+      <p><strong>Address:</strong> Herod, IL 62947</p>
+      <p><strong>Contact:</strong> (618) 253-7114</p>
+    </section>
+
+    <section>
+      <h2>Rend Lake – Benton, IL</h2>
+      <p>Popular for fishing, boating, and camping, Rend Lake is a great spot for nature lovers and families looking to relax and unwind outdoors.</p>
+      <p><strong>Address:</strong> 11712 E. Wayne Fitzgerrell Rd, Benton, IL 62812</p>
+      <p><strong>Contact:</strong> (618) 439-3177</p>
+    </section>
+
+    <section>
+      <h2>Cahokia Mounds – Collinsville, IL</h2>
+      <p>A UNESCO World Heritage Site, Cahokia Mounds preserves the remains of an ancient Native American city and offers educational exhibits and trails.</p>
+      <p><strong>Address:</strong> 30 Ramey St, Collinsville, IL 62234</p>
+      <p><strong>Contact:</strong> (618) 346-5160</p>
+    </section>
+
+    <section>
+      <h3>Visitor Comments</h3>
+      <form action="thankyou.html" method="POST">
+        <label for="name">Name:</label><br/>
+        <input type="text" id="name" name="name" required /><br/><br/>
+        <label for="comment">Comment:</label><br/>
+        <textarea id="comment" name="comment" rows="4" cols="40" required></textarea><br/><br/>
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Back to Home</a></p>
+    <p>&copy; 2025 Sayge Holiday | <a href="contact.html">Contact</a></p>
+  </footer>
+</body>
+</html>
