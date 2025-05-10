@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Top tourist destinations in Northern Illinois, including Chicago, Starved Rock, and Galena.">
+  <meta name="keywords" content="Chicago, Starved Rock, Galena, Northern Illinois, tourism">
+  <meta name="date-produced" content="2025-05-09">
+  <meta name="date-tested" content="2025-05-09">
+  <meta name="author" content="Sayge Holiday">
+  <meta name="robots" content="index, follow">
+  <title>Northern Illinois Destinations</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="slicknav.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="jquery.slicknav.min.js"></script>
+  <script>
+    $(function(){
+      $('#menu').slicknav();
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Northern Illinois Tourist Spots</h1>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="northern.html">Northern Illinois</a></li>
+        <li><a href="southern.html">Southern Illinois</a></li>
+        <li><a href="nearby.html">Nearby States</a></li>
+        <li><a href="further.html">Willing to Travel</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-container">
+      <!-- Left Column -->
+      <div class="left-column">
+        <section>
+          <h2>Millennium Park – Chicago, IL</h2>
+          <p>One of the most iconic spots in Chicago, Millennium Park features public art, gardens, and the famous "Bean" sculpture (Cloud Gate). A must-visit for city lovers.</p>
+          <p><strong>Address:</strong> 201 E Randolph St, Chicago, IL 60602</p>
+          <p><strong>Contact:</strong> (312) 742-1168</p>
+        </section>
+
+        <section>
+          <h2>Starved Rock State Park – Oglesby, IL</h2>
+          <p>Known for its scenic canyons, waterfalls, and hiking trails, Starved Rock is perfect for outdoor enthusiasts looking for a quick getaway from city life.</p>
+          <p><strong>Address:</strong> 2678 E 875th Rd, Oglesby, IL 61348</p>
+          <p><strong>Contact:</strong> (815) 667-4726</p>
+        </section>
+
+        <section>
+          <h2>Galena Historic District – Galena, IL</h2>
+          <p>Step back in time with this charming town filled with 19th-century architecture, boutique shopping, and rich Civil War history.</p>
+          <p><strong>Address:</strong> Main Street, Galena, IL 61036</p>
+          <p><strong>Contact:</strong> (815) 777-9050</p>
+        </section>
+      </div>
+
+      <!-- Right Column -->
+      <div class="right-column">
+        <section>
+          <h2>Lincoln Park Zoo – Chicago, IL</h2>
+          <p>Located in the heart of Chicago, the Lincoln Park Zoo is a free, family-friendly destination with a variety of animal exhibits and beautiful gardens.</p>
+          <p><strong>Address:</strong> 2001 N Clark St, Chicago, IL 60614</p>
+          <p><strong>Contact:</strong> (312) 742-2000</p>
+        </section>
+
+        <section>
+          <h2>Rockford Speedway – Rockford, IL</h2>
+          <p>For racing enthusiasts, Rockford Speedway offers thrilling motorsports events throughout the summer and fall seasons.</p>
+          <p><strong>Address:</strong> 1288 IL-75, Rockford, IL 61102</p>
+          <p><strong>Contact:</strong> (815) 633-1500</p>
+        </section>
+
+        <section>
+          <h2>Lake Geneva – Lake Geneva, WI</h2>
+          <p>Just north of the Illinois border, Lake Geneva is a popular destination for water sports, dining, and scenic lake views.</p>
+          <p><strong>Address:</strong> 201 Wrigley Dr, Lake Geneva, WI 53147</p>
+          <p><strong>Contact:</strong> (262) 248-4416</p>
+        </section>
+
+        <section>
+          <h2>Shawnee National Forest – Harrisburg, IL</h2>
+          <p>Located in Southern Illinois, Shawnee National Forest offers stunning natural beauty, hiking trails, and opportunities for wildlife viewing.</p>
+          <p><strong>Address:</strong> 50 Highway 145 S, Harrisburg, IL 62946</p>
+          <p><strong>Contact:</strong> (618) 253-7114</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- Visitor Comments -->
+  <section class="comments">
+    <h3>Visitor Comments</h3>
+    <form action="thankyou.html" method="get">
+      <label for="first">First Name:</label>
+      <input type="text" id="first" name="first" required><br><br>
+      
+      <label for="last">Last Name:</label>
+      <input type="text" id="last" name="last" required><br><br>
+      
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="4" required></textarea><br><br>
+      
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </section>
+
+  <footer>
+    <p><a href="index.html">Back to Home</a></p>
+    <p>&copy; 2025 Sayge Holiday</p>
+  </footer>
+</body>
+</html>
